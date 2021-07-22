@@ -1,0 +1,40 @@
+
+**** Build of configuration Debug for project MSP-EXP430FR5739 UserExperience ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../FR_EXP.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --abi=eabi -g --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="FR_EXP.d_raw"  "../FR_EXP.c"
+"../FR_EXP.c", line 159: remark #2553-D: (ULP 14.1) Array index (involving "flag") of type "int". Recommend using "unsigned int"
+"../FR_EXP.c", line 160: remark #2553-D: (ULP 14.1) Array index (involving "flag") of type "int". Recommend using "unsigned int"
+"../FR_EXP.c", line 542: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../FR_EXP.c", line 532: remark #1535-D: (ULP 8.1) variable "data" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../FR_EXP.c", line 576: remark #2553-D: (ULP 14.1) Array index (involving "flag") of type "int". Recommend using "unsigned int"
+"../FR_EXP.c", line 604: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../FR_EXP.c", line 644: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../FR_EXP.c", line 699: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../FR_EXP.c", line 875: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../FR_EXP.c", line 902: remark #1528-D: (ULP 3.1) Detected flag polling using UCA0IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../FR_EXP.c", line 927: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../FR_EXP.c"
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --abi=eabi -g --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 128: remark #1538-D: (ULP 10.1) ISR Port_4 calls function DisableSwitches. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 139: remark #1538-D: (ULP 10.1) ISR Port_4 calls function StartDebounceTimer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 143: remark #1538-D: (ULP 10.1) ISR Port_4 calls function DisableSwitches. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 144: remark #1538-D: (ULP 10.1) ISR Port_4 calls function StartDebounceTimer. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 235: remark #1538-D: (ULP 10.1) ISR Timer1_A0_ISR calls function EnableSwitches. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "MSP-EXP430FR5739 UserExperience.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --abi=eabi -g --advice:power=all --define=__MSP430FR5739__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z --stack_size=160 -m"MSP-EXP430FR5739 UserExperience.map" --heap_size=160 --use_hw_mpy=F5 -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="MSP-EXP430FR5739 UserExperience_linkInfo.xml" --rom_model -o "MSP-EXP430FR5739 UserExperience.out" "./FR_EXP.obj" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibc.a 
+<Linking>
+remark #10422-D: (ULP 6.2) Detected use of a device with available 32-bit hardware multiplier and not also using MSPMATHLIB library (libmath.a).  Recommend using MSPMATHLIB library (libmath.a) for improved performance.
+Finished building target: "MSP-EXP430FR5739 UserExperience.out"
+ 
+
+**** Build Finished ****

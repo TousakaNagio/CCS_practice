@@ -1,0 +1,20 @@
+/*
+ * IOController.h
+ *
+ *  Created on: 2021¦~6¤ë30¤é
+ *      Author: user
+ */
+#include <msp430.h>
+//#ifndef IOCONTROLLER_H_
+//#define IOCONTROLLER_H_
+
+//extern unsigned char SET(unsigned char reg, unsigned char b);
+//extern unsigned char CLR(unsigned char reg, unsigned char b);
+//extern unsigned char TGL(unsigned char reg, unsigned char b);
+extern unsigned char SET(unsigned char reg, unsigned char b);
+extern unsigned char CLR(unsigned char reg, unsigned char b);
+extern unsigned char TGL(unsigned char reg, unsigned char b);
+//ex. If you want to set P1.0¡BP1.5 as output, you can use SET(P1DIR, (BIT0+BIT5))
+
+
+//#endif /* IOCONTROLLER_H_ */

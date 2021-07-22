@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Project0716&apos; to &apos;Timer_Overflow_using_ACLK&apos;" description="Rename resource &apos;Project0716&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Project0716" name="Timer_Overflow_using_ACLK" stamp="1626438794527" updateReferences="true"/>
+</session>

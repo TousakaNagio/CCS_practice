@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project MSP430FR57xx_01.c ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'MSP430FR57xx_01.c.out' is up to date.
+
+**** Build Finished ****
