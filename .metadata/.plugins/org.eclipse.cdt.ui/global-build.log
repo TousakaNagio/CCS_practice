@@ -4326,3 +4326,643 @@ Finished building target: "ADC_Sampling_P1P2_LPM.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 33: warning #112-D: statement is unreachable
+"../main.c", line 31: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 33: warning #112-D: statement is unreachable
+"../main.c", line 31: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR57xx_uscia0_uart_03.c ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../MSP430FR57xx_uscia0_uart_03.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/MSP430FR57xx_uscia0_uart_03.c" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430FR57xx_uscia0_uart_03.d_raw"  "../MSP430FR57xx_uscia0_uart_03.c"
+"../MSP430FR57xx_uscia0_uart_03.c", line 129: remark #1528-D: (ULP 3.1) Detected flag polling using UCA0IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430FR57xx_uscia0_uart_03.c", line 73: remark #1535-D: (ULP 8.1) variable "RXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 74: remark #1535-D: (ULP 8.1) variable "TXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 75: remark #1535-D: (ULP 8.1) variable "check" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../MSP430FR57xx_uscia0_uart_03.c"
+ 
+Building target: "MSP430FR57xx_uscia0_uart_03.c.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR57xx_uscia0_uart_03.c.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR57xx_uscia0_uart_03.c_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR57xx_uscia0_uart_03.c.out" "./MSP430FR57xx_uscia0_uart_03.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "MSP430FR57xx_uscia0_uart_03.c.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 32: warning #112-D: statement is unreachable
+"../main.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 12: error #20: identifier "UCSSEL_ACLK" is undefined
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 48: remark #1528-D: (ULP 3.1) Detected flag polling using UCA0IFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 48: remark #1528-D: (ULP 3.1) Detected flag polling using UCA0IFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 48: remark #1528-D: (ULP 3.1) Detected flag polling using UCA0IFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 48: remark #1528-D: (ULP 3.1) Detected flag polling using UCA0IFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 41: warning #112-D: statement is unreachable
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR57xx_uscia0_uart_03.c ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../MSP430FR57xx_uscia0_uart_03.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/MSP430FR57xx_uscia0_uart_03.c" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430FR57xx_uscia0_uart_03.d_raw"  "../MSP430FR57xx_uscia0_uart_03.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'MSP430FR57xx_uscia0_uart_03.obj' failed
+"../MSP430FR57xx_uscia0_uart_03.c", line 134: error #171: expected a declaration
+"../MSP430FR57xx_uscia0_uart_03.c", line 73: remark #1535-D: (ULP 8.1) variable "RXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 74: remark #1535-D: (ULP 8.1) variable "TXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 75: remark #1535-D: (ULP 8.1) variable "check" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+1 error detected in the compilation of "../MSP430FR57xx_uscia0_uart_03.c".
+gmake: *** [MSP430FR57xx_uscia0_uart_03.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR57xx_uscia0_uart_03.c ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../MSP430FR57xx_uscia0_uart_03.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/MSP430FR57xx_uscia0_uart_03.c" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430FR57xx_uscia0_uart_03.d_raw"  "../MSP430FR57xx_uscia0_uart_03.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'MSP430FR57xx_uscia0_uart_03.obj' failed
+"../MSP430FR57xx_uscia0_uart_03.c", line 134: error #171: expected a declaration
+"../MSP430FR57xx_uscia0_uart_03.c", line 73: remark #1535-D: (ULP 8.1) variable "RXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 74: remark #1535-D: (ULP 8.1) variable "TXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 75: remark #1535-D: (ULP 8.1) variable "check" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+1 error detected in the compilation of "../MSP430FR57xx_uscia0_uart_03.c".
+gmake: *** [MSP430FR57xx_uscia0_uart_03.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR57xx_uscia0_uart_03.c ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../MSP430FR57xx_uscia0_uart_03.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/MSP430FR57xx_uscia0_uart_03.c" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="MSP430FR57xx_uscia0_uart_03.d_raw"  "../MSP430FR57xx_uscia0_uart_03.c"
+"../MSP430FR57xx_uscia0_uart_03.c", line 137: remark #1528-D: (ULP 3.1) Detected flag polling using UCA0IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430FR57xx_uscia0_uart_03.c", line 73: remark #1535-D: (ULP 8.1) variable "RXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 74: remark #1535-D: (ULP 8.1) variable "TXData" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../MSP430FR57xx_uscia0_uart_03.c", line 75: remark #1535-D: (ULP 8.1) variable "check" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../MSP430FR57xx_uscia0_uart_03.c"
+ 
+Building target: "MSP430FR57xx_uscia0_uart_03.c.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR57xx_uscia0_uart_03.c.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR57xx_uscia0_uart_03.c_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR57xx_uscia0_uart_03.c.out" "./MSP430FR57xx_uscia0_uart_03.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "MSP430FR57xx_uscia0_uart_03.c.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
