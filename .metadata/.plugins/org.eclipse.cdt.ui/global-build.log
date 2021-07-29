@@ -3748,3 +3748,581 @@ Finished building target: "UART_Receive.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 32: warning #112-D: statement is unreachable
+"../main.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 36: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not EUSCI_A1_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 32: warning #112-D: statement is unreachable
+"../main.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 36: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not EUSCI_A1_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 32: warning #112-D: statement is unreachable
+"../main.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 36: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not EUSCI_A0_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 32: warning #112-D: statement is unreachable
+"../main.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 36: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not EUSCI_A0_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 35: warning #112-D: statement is unreachable
+"../main.c", line 33: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 39: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not EUSCI_A0_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 35: warning #112-D: statement is unreachable
+"../main.c", line 33: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART_Receive ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/UART_Receive" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 35: warning #112-D: statement is unreachable
+"../main.c", line 33: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "UART_Receive.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"UART_Receive.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="UART_Receive_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "UART_Receive.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "UART_Receive.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_polling ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_polling" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 20: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 20: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 21: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 22: error #20: identifier "ADCON" is undefined
+"../main.c", line 24: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 24: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 25: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 27: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 27: error #20: identifier "ADCRES" is undefined
+"../main.c", line 28: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 30: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 30: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 34: error #20: identifier "ADCENC" is undefined
+"../main.c", line 34: error #20: identifier "ADCSC" is undefined
+"../main.c", line 36: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 36: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 38: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 54: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_polling ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_polling" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 20: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 20: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 21: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 22: error #20: identifier "ADCON" is undefined
+"../main.c", line 24: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 24: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 25: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 27: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 27: error #20: identifier "ADCRES" is undefined
+"../main.c", line 28: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 30: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 30: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 34: error #20: identifier "ADCENC" is undefined
+"../main.c", line 34: error #20: identifier "ADCSC" is undefined
+"../main.c", line 36: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 36: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 38: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 54: warning #112-D: statement is unreachable
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_polling ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_polling" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 20: error #20: identifier "ADC10SHT" is undefined
+"../main.c", line 28: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 36: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 54: warning #112-D: statement is unreachable
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_polling ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_polling" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 36: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 54: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "ADC_sampling_polling.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ADC_sampling_polling.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ADC_sampling_polling_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ADC_sampling_polling.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "ADC_sampling_polling.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_polling ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_polling" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 144: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "ADC_sampling_polling.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ADC_sampling_polling.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ADC_sampling_polling_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ADC_sampling_polling.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "ADC_sampling_polling.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 5: error #66: expected a ";"
+"../main.c", line 28: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 29: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 31: error #171: expected a declaration
+"../main.c", line 37: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 38: error #171: expected a declaration
+"../main.c", line 41: error #609: this pragma must immediately precede a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 10: error #20: identifier "JJDIR" is undefined
+"../main.c", line 18: error #20: identifier "ADC10SHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+"../main.c", line 43: error #20: identifier "ADCMEM0" is undefined
+7 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+"../main.c", line 43: error #20: identifier "ADCMEM0" is undefined
+5 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+"../main.c", line 43: error #20: identifier "ADCMEM0" is undefined
+5 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+"../main.c", line 43: error #20: identifier "ADCMEM0" is undefined
+5 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+"../main.c", line 43: error #20: identifier "ADCMEM0" is undefined
+5 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 23: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+"../main.c", line 43: error #20: identifier "ADCMEM0" is undefined
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 23: error #20: identifier "ADC10RES_2" is undefined
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+"../main.c", line 43: error #20: identifier "ADCMEM0" is undefined
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 29: warning #225-D: function "__emable_interrupt" declared implicitly
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "ADC_sampling_P1P2_IRQ.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ADC_sampling_P1P2_IRQ.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ADC_sampling_P1P2_IRQ_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ADC_sampling_P1P2_IRQ.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+ 
+ undefined          first referenced
+  symbol                in file     
+ ---------          ----------------
+ __emable_interrupt ./main.obj      
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+ 
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:143: recipe for target 'ADC_sampling_P1P2_IRQ.out' failed
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "ADC_sampling_P1P2_IRQ.out" not built
+gmake[1]: *** [ADC_sampling_P1P2_IRQ.out] Error 1
+makefile:139: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_P1P2_IRQ ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_sampling_P1P2_IRQ" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using ADC10IFG0. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 41: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "ADC_sampling_P1P2_IRQ.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ADC_sampling_P1P2_IRQ.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ADC_sampling_P1P2_IRQ_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ADC_sampling_P1P2_IRQ.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "ADC_sampling_P1P2_IRQ.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_Sampling_P1P2_LPM ****
+
+"C:\\ti\\ccs1031\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --include_path="C:/ti/ccs1031/ccs/ccs_base/msp430/include" --include_path="C:/Users/user/workspace_v10/ADC_Sampling_P1P2_LPM" --include_path="C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 42: warning #2580-D: pragma vector= accepts numeric arguments or "unused_interrupts" but not ADC_VECTOR
+Finished building: "../main.c"
+ 
+Building target: "ADC_Sampling_P1P2_LPM.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --define=__MSP430FR5739__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"ADC_Sampling_P1P2_LPM.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1031/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1031/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"C:/ti/ccs1031/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="ADC_Sampling_P1P2_LPM_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "ADC_Sampling_P1P2_LPM.out" "./main.obj" "../lnk_msp430fr5739.cmd"  -llibmpu_init_fr57xx.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "ADC_Sampling_P1P2_LPM.out"
+ 
+
+**** Build Finished ****

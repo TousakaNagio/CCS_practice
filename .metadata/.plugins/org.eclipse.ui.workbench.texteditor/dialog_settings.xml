@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="BIT6"/>
+		<item key="selection" value="ADC10RES"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="bit6"/>
-			<item value="UCA0RX"/>
-			<item value="TB0CTL"/>
-			<item value="PMSCTL0"/>
-			<item value="G-Sensor"/>
-			<item value="P1DIR"/>
-			<item value="P4REF"/>
-			<item value="REF"/>
-			<item value="P4"/>
-			<item value="PM5CTL0"/>
-			<item value="BR"/>
-			<item value="UCA0"/>
-			<item value="LCDPORT"/>
-			<item value="UART"/>
-			<item value="CTL"/>
+			<item value="ADC10RES"/>
+			<item value="ADC10RES_2"/>
+			<item value="ADCSHT"/>
+			<item value="ADCSHT_2"/>
+			<item value="ADC10SHT"/>
+			<item value="ADC10INCH_2"/>
+			<item value="ADC10SSEL_2"/>
+			<item value="ADC10SHT_2"/>
+			<item value="ADC10ON"/>
+			<item value="ADC10sht"/>
+			<item value="ADC"/>
+			<item value="ADCCTL0"/>
+			<item value="USCI_A0"/>
+			<item value="EUSCI_A0_RX"/>
+			<item value="EUSCI_A0"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="480"/>
-		<item key="DIALOG_Y_ORIGIN" value="409"/>
+		<item key="DIALOG_X_ORIGIN" value="625"/>
+		<item key="DIALOG_Y_ORIGIN" value="276"/>
 		<item key="DIALOG_WIDTH" value="344"/>
 		<item key="DIALOG_HEIGHT" value="442"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI"/>
